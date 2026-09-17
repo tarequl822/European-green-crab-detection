@@ -26,17 +26,3 @@ Open the ready-to-run notebook:
 - Runs detection on an example image.
 - Evaluates the model using validation metrics such as precision and recall.
 
-## Requirements
-
-- A Google account
-- Internet access
-- A Google Colab session
-- GPU runtime recommended for faster training
-
-The notebook is designed so that users can run the complete workflow without configuring a local Python environment.
-
-## Notes
-
-- Training time depends on the selected Colab hardware and the number of epochs.
-- The first run may take longer because it installs packages and downloads model weights or dataset files.
-- Keep the Colab tab open while training is running.
